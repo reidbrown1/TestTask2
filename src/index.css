@@ -1,0 +1,62 @@
+
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(assets/roboto-condensed.light.ttf);
+  font-weight: 800;
+
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(assets/economica-bold.ttf);
+  font-weight: 800;
+}
+
+body {
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+  text-align: center;
+
+}
+
+button {
+  outline: 0 none;
+}
+
+input {
+  margin: 10;
+}
+
+#conditions {
+  width: 10%;
+  margin:1;
+  background-color: lightskyblue;
+  border-style: solid;
+  border-width: thin;
+  
+}
+
+#conditionManager {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+

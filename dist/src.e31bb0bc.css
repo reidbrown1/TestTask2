@@ -1,0 +1,152 @@
+/* body {
+  margin: 0;
+}
+.App{
+  margin: 0;
+}
+.navbar{
+  padding: 10px 20px;
+  text-align: center;
+  background: #6d3d6d
+}
+.navbar h1{
+  margin: 10px 0;
+}
+
+.book-list{
+  margin: 20px;
+}
+.book-list ul{
+  padding: 0;
+  list-style-type: none;
+}
+.book-list li{
+  background: #6d3d6d;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.book-list li:hover{
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+.book-list .title{
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.2em;
+}
+.book-list .author{
+  font-size: 0.9em;
+  color: #ddd;
+}
+.empty{
+  margin: 20px;
+  text-align: center;
+}
+
+form{
+  padding: 20px;
+}
+
+
+
+.ListOfOrders {
+  margin: 10;
+} */
+
+.ListOfOrders {
+  margin: 10;
+  background-color: lightblue;
+}
+
+.Orders {
+  margin: 10;
+  padding: 10;
+  background-color: lightcoral;
+}
+
+input[type='submit']{
+  margin: 10px auto;
+  background: #eee;
+  border: 0;
+  padding: 6px 20px;
+  display: block;
+}
+
+input[type='text']{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 6px 0;
+  background:lightblue;
+  color: black;
+  border: 0;
+  
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 0.5; /* Firefox */
+}
+@font-face {
+  font-family: RobotoCondensed;
+  src: url(roboto-condensed.light.6709adf4.ttf);
+  font-weight: 800;
+
+}
+
+@font-face {
+  font-family: EconomicaBold;
+  src: url(economica-bold.12a9e27d.ttf);
+  font-weight: 800;
+}
+
+body {
+  padding: 2.5%;
+  font-family: 'RobotoCondensed';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'EconomicaBold';
+  text-align: center;
+
+}
+
+button {
+  outline: 0 none;
+}
+
+input {
+  margin: 10;
+}
+
+#conditions {
+  width: 10%;
+  margin:1;
+  background-color: lightskyblue;
+  border-style: solid;
+  border-width: thin;
+  
+}
+
+#conditionManager {
+  text-align: center;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
